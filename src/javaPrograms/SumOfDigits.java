@@ -9,8 +9,8 @@ public class SumOfDigits {
 		System.out.println(num/10);
 		
 		while (num > 0) {
-			sum += num%10;
-			num /= 10;
+			sum = sum + num%10;
+			num = num / 10;
 		}
 		
 		System.out.println("Sum of digitd is "+sum);
